@@ -21,6 +21,6 @@ if 'markets' in data:
         json.dump(markets, f, ensure_ascii=False, indent=4, separators=(',', ': '))
         for market in markets:
             if 'pickupEmail' in market:
-                f.write("\n") # Zeilenumbruch hinzufügen, wenn das Feld 'pickupEmail' vorhanden ist
+                f.write("\n") 
 else:
     print("Error: 'markets' field not found in JSON response")
