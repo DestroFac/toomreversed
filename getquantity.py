@@ -1,7 +1,6 @@
 import requests
 import json
 
-# zuerst wird das Produkt hinzugefügt
 add_to_cart_url = 'https://toom.de/shop/toomcheckout/pdp/add/'
 
 add_to_cart_headers = {
